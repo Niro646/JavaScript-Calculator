@@ -16,17 +16,17 @@ body {
   align-items: center; /*moves things on to center on y axis*/
   background: linear-gradient(
     45deg,
-    #0a0a0a,
-    #3a4452
+    #f5f7ff,
+    #2388ff
   ); /*creats gradient background in direction of 45 degrees combining 2 different colors*/
 }
 
 .calculator {
-  border: 1px solid #717377; /*creates border around caculator div with 1px thickness*/
+  border: 1px solid #0d2f77; /*creates border around caculator div with 1px thickness*/
   padding: 20px; /*creates padding 20px thick around calculator div*/
   border-radius: 16px; /*makes the border rounder around the edges*/
   background: transparent;
-  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); /*emmit shadows from the box in all directions*/
+  box-shadow: 0px 3px 15px rgba(24, 40, 71, 0.5); /*emmit shadows from the box in all directions*/
 }
 
 input {
@@ -53,7 +53,7 @@ button {
   margin: 10px; /*creates margin around the buttons*/
   border-radius: 50%; /*makes button's edges rounder*/
   background: transparent;
-  color: #ffffff; /*changes button's text color*/
+  color: #1f2b54; /*changes button's text color*/
   font-size: 20px;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
   cursor: pointer;
@@ -64,5 +64,6 @@ button {
 }
 
 .operator {
-  color: #6dee0a;
+  color: #1f2b54;
+  background-color: #ffc804;
 }
