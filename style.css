@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /*moves things on to center on x axis*/
+  align-items: center; /*moves things on to center on y axis*/
+  background: linear-gradient(
+    45deg,
+    #0a0a0a,
+    #3a4452
+  ); /*creats gradient background in direction of 45 degrees combining 2 different colors*/
+}
+
+.calculator {
+  border: 1px solid #717377; /*creates border around caculator div with 1px thickness*/
+  padding: 20px; /*creates padding 20px thick around calculator div*/
+  border-radius: 16px; /*makes the border rounder around the edges*/
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); /*emmit shadows from the box in all directions*/
+}
+
+input {
+  width: 320px;
+  border: none;
+  padding: 24px; /*creates padding around the input in the input box*/
+  margin: 10px; /*creates margin around the input box itself*/
+  background: transparent; /*makes the input box's background trasnparent*/
+  box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right; /*puts input display on the right size*/
+  cursor: pointer; /*makes the mouse pointer look like the default mouse pointer*/
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff; /*changes the placeholder color*/
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px; /*creates margin around the buttons*/
+  border-radius: 50%; /*makes button's edges rounder*/
+  background: transparent;
+  color: #ffffff; /*changes button's text color*/
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.equalBtn {
+  background-color: #fb7c14;
+}
+
+.operator {
+  color: #6dee0a;
+}
