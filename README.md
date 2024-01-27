@@ -4,8 +4,8 @@
 The Simple JavaScript Calculator is a straightforward web-based calculator built using JavaScript. It provides basic arithmetic operations to help users perform calculations quickly and efficiently.
 
 # Usage
-[JavaScript Calculator](https://my-cool-js-calculator.netlify.app/)
-You can access the Simple JavaScript Calculator by visiting the following link: JavaScript Calculator
+
+You can access the Simple JavaScript Calculator by visiting the following link: [JavaScript Calculator](https://my-cool-js-calculator.netlify.app/)
 
 Simply enter your mathematical expressions and use the calculator's features to perform calculations with ease.
 
